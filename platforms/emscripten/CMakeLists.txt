@@ -49,4 +49,7 @@ target_compile_definitions (BugsyWugsy PUBLIC EN_DESKTOP)
 target_compile_definitions (CoreGame PUBLIC EN_PLATFORM_EMSCRIPTEN)
 target_compile_definitions (CoreGame PUBLIC EN_DESKTOP)
 
+target_compile_definitions (BugsyWugsy PUBLIC SCREEN_WIDTH=800)
+target_compile_definitions (BugsyWugsy PUBLIC SCREEN_HEIGHT=600)
+
 #set_target_properties(BugsyWugsy PROPERTIES LINK_FLAGS "--preload-file ${CMAKE_SOURCE_DIR}/assets --use-preload-plugins")
