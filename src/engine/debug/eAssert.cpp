@@ -1,0 +1,2 @@
+//◦ EggEngine ◦
+#include "eAssert.h"
