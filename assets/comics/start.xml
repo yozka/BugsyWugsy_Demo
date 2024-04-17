@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<resources>
+	
+	<!-- все шрифты которые будут загруженны -->
+	<font name="molot_16" group="comics" ptsize="100" fontPath="fonts/molot.otf" />
+
+	<!-- Спрайты картинки которые будт использоватся в комиксе-->
+	<sprite name="comics_egg.png" group="comics" imagePath="textures/comics/egg.png" />
+	<sprite name="comics_dragon.png" group="comics" imagePath="textures/comics/dragon.png" />
+	<sprite name="chicken_idle.png" group="comics" imagePath="textures/comics/chicken_idle.png" />
+	<sprite name="chicken_surprise.png" group="comics" imagePath="textures/comics/chicken_surprise.png" />
+
+
+	<music name="Music_StartGame" group="comics" musicPath="sound/Music_StartGame.ogg"/>
+	<sample name="ShowBubble_1" group="comics" samplePath="sound/ShowBubble_1.wav"/>
+	<sample name="ShowBubble_2" group="comics" samplePath="sound/ShowBubble_2.wav"/>
+	<sample name="ShowBubble_3" group="comics" samplePath="sound/ShowBubble_3.wav"/>
+	<sample name="ShowBubble_4" group="comics" samplePath="sound/ShowBubble_4.wav"/>
+	<sample name="ShowBubble_5" group="comics" samplePath="sound/ShowBubble_5.wav"/>
+	<sample name="ShowBubble_6" group="comics" samplePath="sound/ShowBubble_6.wav"/>
+
+	<!-- слайды -->
+
+	<slide color="black" music="Music_StartGame" musicLoop="true" musicFade="1000">
+		<sprite x="10" y="10" width="200" height="200" name="chicken_idle.png" />
+
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">Меня зовут “Кудах Драгон”.</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">Необычное имя для курицы, верно?</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">МНе знаю о чем думала моя мама-курица…</text>
+		<text x="50" y="450" font="molot_16" color="red" scale="0.3">но в целом мне нравится.</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="black" sample = "ShowBubble_1">
+		<sprite x="10" y="10" width="200" height="200" name="comics_egg.png" />
+
+		<text x="50" y="250" font="molot_16" color="red" scale="0.3">В детстве она говорила мне,</text>
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">что я - особенный цыпленок.</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">Что я вылупилась из странного яйца</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">необычной формы...</text>
+		<text x="50" y="450" font="molot_16" color="red" scale="0.3">Не знаю что это значит, но звучит клёво.</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_2">
+		<sprite x="10" y="10" width="200" height="200" name="chicken_idle.png" />
+
+		<text x="50" y="250" font="molot_16" color="red" scale="0.3">Я живу на ферме у старого Вилли</text>
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">и никогда не выходила за пределы</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">нашего курятника.</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">Жизнь на ферме мне нравится, но я мечтаю...</text>
+		<text x="50" y="450" font="molot_16" color="red" scale="0.3">о дальних странствиях.</text>
+		<text x="50" y="500" font="molot_16" color="red" scale="0.3">Какой он, мир за забором?</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_3">
+		<sprite x="10" y="10" width="200" height="200" name="chicken_idle.png" />
+
+		<text x="50" y="250" font="molot_16" color="red" scale="0.3">Очень часто я вижу странный сон.</text>
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">В нем я летаю вместе с  огромными</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">огнедышащими курицами.</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">Мы несемся навстречу ветра,</text>
+		<text x="50" y="450" font="molot_16" color="red" scale="0.3">пролетая моря и океаны.</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_4">
+
+		<text x="50" y="100" font="molot_16" color="red" scale="0.3">Эх...</text>
+		<text x="50" y="150" font="molot_16" color="red" scale="0.3">как жалко что мои крылья только для вида</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_5">
+		<sprite x="10" y="10" width="200" height="200" name="chicken_surprise.png" />
+
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">Этим ранним летним утром мы узнали,</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">что старый Вилли решил продать свою ферму.</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">Что же будет с нами?</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_6">
+
+		<text x="50" y="100" font="molot_16" color="red" scale="0.3">Тогда решено!</text>
+		<text x="50" y="150" font="molot_16" color="red" scale="0.3">Нельзя больше мечтать, надо действовать!</text>
+		<text x="50" y="200" font="molot_16" color="red" scale="0.3">Я стану такой же как и курицы из моего сна!</text>
+		<text x="50" y="250" font="molot_16" color="red" scale="0.3">Я буду летать!</text>
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">Всё что нужно -</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">это поверить в себя и стать драконом!</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+	<slide color="#0F0A0C" sample = "ShowBubble_5">
+		<sprite x="10" y="10" width="200" height="200" name="chicken_surprise.png" />
+
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">Надо собрать</text>
+		<text x="100" y="350" font="molot_16" color="red" scale="0.3">все</text>
+		<text x="150" y="400" font="molot_16" color="red" scale="0.3">яица!</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+	<atlas imagePath="textures/common.png" group="common">
+		<SubTexture name="panel_brown.png" x="1" y="1" width="100" height="100" />
+		<SubTexture name="buttons/buttonSquare_beige.png" x="102" y="1" width="45" height="49" />
+		<SubTexture name="buttons/buttonSquare_blue_pressed.png" x="148" y="1" width="45" height="45" />
+		<SubTexture name="buttons/buttonSquare_grey_pressed.png" x="194" y="1" width="45" height="45" />
+		<SubTexture name="buttons/buttonRound_blue.png" x="240" y="1" width="35" height="38" />
+		<SubTexture name="buttons/buttonRound_brown.png" x="276" y="1" width="35" height="38" />
+		<SubTexture name="buttons/buttonSquare_blue.png" x="312" y="1" width="45" height="49" />
+		<SubTexture name="buttons/buttonRound_beige.png" x="358" y="1" width="35" height="38" />
+		<SubTexture name="buttons/buttonRound_grey.png" x="394" y="1" width="35" height="38" />
+		<SubTexture name="buttons/buttonSquare_grey.png" x="430" y="1" width="45" height="49" />
+		<SubTexture name="buttons/buttonSquare_beige_pressed.png" x="476" y="1" width="45" height="45" />
+		<SubTexture name="buttons/buttonSquare_brown.png" x="522" y="1" width="45" height="49" />
+		<SubTexture name="buttons/buttonSquare_brown_pressed.png" x="568" y="1" width="45" height="45" />
+		<SubTexture name="icons/iconCircle_blue.png" x="614" y="1" width="17" height="17" />
+		<SubTexture name="icons/arrowBeige_left.png" x="632" y="1" width="22" height="21" />
+		<SubTexture name="icons/iconCross_beige.png" x="655" y="1" width="16" height="15" />
+		<SubTexture name="icons/arrowBlue_right.png" x="672" y="1" width="22" height="21" />
+		<SubTexture name="icons/arrowSilver_right.png" x="695" y="1" width="22" height="21" />
+		<SubTexture name="icons/iconCheck_beige.png" x="718" y="1" width="16" height="15" />
+		<SubTexture name="icons/iconCircle_beige.png" x="735" y="1" width="17" height="17" />
+		<SubTexture name="icons/iconCheck_blue.png" x="753" y="1" width="16" height="15" />
+		<SubTexture name="icons/arrowBlue_left.png" x="770" y="1" width="22" height="21" />
+		<SubTexture name="icons/iconCross_grey.png" x="793" y="1" width="16" height="15" />
+		<SubTexture name="icons/iconCheck_bronze.png" x="810" y="1" width="16" height="15" />
+		<SubTexture name="icons/iconCross_blue.png" x="827" y="1" width="16" height="15" />
+		<SubTexture name="icons/iconCheck_grey.png" x="844" y="1" width="16" height="15" />
+		<SubTexture name="icons/arrowBrown_left.png" x="861" y="1" width="22" height="21" />
+		<SubTexture name="icons/iconCircle_brown.png" x="884" y="1" width="17" height="17" />
+		<SubTexture name="icons/iconCross_brown.png" x="902" y="1" width="16" height="15" />
+		<SubTexture name="icons/iconCircle_grey.png" x="919" y="1" width="17" height="17" />
+		<SubTexture name="icons/arrowBeige_right.png" x="937" y="1" width="22" height="21" />
+		<SubTexture name="icons/arrowBrown_right.png" x="960" y="1" width="22" height="21" />
+		<SubTexture name="icons/arrowSilver_left.png" x="983" y="1" width="22" height="21" />
+	</atlas>
+</resources>

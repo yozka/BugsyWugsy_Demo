@@ -1,0 +1,15 @@
+[submodule "frameworks/SDL"]
+	path = frameworks/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "frameworks/tinyxml2"]
+	path = frameworks/tinyxml2
+	url = https://github.com/leethomason/tinyxml2.git
+[submodule "frameworks/SDL_image"]
+	path = frameworks/SDL_image
+	url = https://github.com/libsdl-org/SDL_image.git
+[submodule "frameworks/SDL_mixer"]
+	path = frameworks/SDL_mixer
+	url = https://github.com/yozka/SDL_mixer.git
+[submodule "frameworks/SDL_ttf"]
+	path = frameworks/SDL_ttf
+	url = https://github.com/libsdl-org/SDL_ttf.git

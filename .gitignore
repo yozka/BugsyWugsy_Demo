@@ -1,0 +1,15 @@
+/build
+/.DS_Store
+/src/.DS_Store
+/src/engine/.DS_Store
+/platforms/android/.gradle
+/platforms/android/.idea
+/platforms/android/app/.cxx
+/platforms/android/app/build
+/platforms/android/local.properties
+
+
+.DS_Store
+.idea/.gitignore
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml

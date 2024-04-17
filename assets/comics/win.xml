@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<resources>
+	
+	<!-- все шрифты которые будут загруженны -->
+	<font name="molot_16" group="comics" ptsize="100" fontPath="fonts/molot.otf" />
+
+	<!-- Спрайты картинки которые будт использоватся в комиксе-->
+	<sprite name="comics_dragon.png" group="comics" imagePath="textures/comics/dragon.png" />
+
+
+	<music name="Music_StartGame" group="comics" musicPath="sound/Music_StartGame.ogg"/>
+	<sample name="ShowBubble_1" group="comics" samplePath="sound/ShowBubble_1.wav"/>
+	<sample name="ShowBubble_2" group="comics" samplePath="sound/ShowBubble_2.wav"/>
+	<sample name="ShowBubble_3" group="comics" samplePath="sound/ShowBubble_3.wav"/>
+	<sample name="ShowBubble_4" group="comics" samplePath="sound/ShowBubble_4.wav"/>
+	<sample name="ShowBubble_5" group="comics" samplePath="sound/ShowBubble_5.wav"/>
+	<sample name="ShowBubble_6" group="comics" samplePath="sound/ShowBubble_6.wav"/>
+	<sample name="ShowBubble_7" group="comics" samplePath="sound/ShowBubble_7.wav"/>
+
+	<!-- слайды -->
+
+	<slide color="#0F0A0C" sample = "ShowBubble_7">
+		<sprite x="10" y="10" width="200" height="200" name="comics_dragon.png" />
+
+		<text x="50" y="300" font="molot_16" color="red" scale="0.3">Я свободна!</text>
+		<text x="50" y="350" font="molot_16" color="red" scale="0.3">Я дракон!</text>
+		<text x="50" y="400" font="molot_16" color="red" scale="0.3">Ну KFC, ДЕРЖИСЬ!</text>
+
+		<text x="100" y="550" font="molot_16" color="blue" scale="0.2">Tap to continue</text>
+	</slide>
+
+
+</resources>
